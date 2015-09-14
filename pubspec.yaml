@@ -1,0 +1,8 @@
+name: glib_tests
+dependencies:
+  browser: any
+  glib:
+    path: ../glib
+transformers:
+- glib:
+    assetsRoot: web/assets/
