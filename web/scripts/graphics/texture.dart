@@ -10,8 +10,8 @@ class TextureTest extends Test{
   TextureTest():super("Texture test");
   
   create(){    
-    texture = new Texture.from("assets/head.png");
-    spriteSheet = new Texture.from('assets/spritesheet-body.png');
+    texture = new Texture.from("subdir/head.png");
+    spriteSheet = new Texture.from('spritesheet-body.png');
     firstFrame = new TextureRegion(spriteSheet, 0, 0, 64, 64);
     batch = new SpriteBatch();
   }

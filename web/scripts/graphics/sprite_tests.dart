@@ -17,7 +17,7 @@ class SpriteTransformTest extends Test{
   SpriteTransformTest():super("Texture test");
   
   create(){    
-    var texture = new Texture.from("assets/head.png");
+    var texture = new Texture.from("head.png");
     sprRot1 = new Sprite(texture);
     sprRot2 = new Sprite(texture);
     sprRot3 = new Sprite(texture);

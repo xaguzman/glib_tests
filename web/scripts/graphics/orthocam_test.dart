@@ -12,7 +12,7 @@ class OrthographicCameraTest extends Test{
   }
   
   create(){
-    texture = new Texture.from('assets/spritesheet-body.png');
+    texture = new Texture.from('spritesheet-body.png');
     camera = new OrthographicCamera()..setToOrtho();
     batch = new SpriteBatch(); 
   }

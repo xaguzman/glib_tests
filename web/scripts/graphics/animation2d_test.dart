@@ -17,7 +17,7 @@ class Animation2dTest extends Test{
   @override
   create(){
     batch = new SpriteBatch();
-    spriteSheet = new Texture.from('assets/spritesheet-body.png');
+    spriteSheet = new Texture.from('spritesheet-body.png');
     spriteSheet.onLoad.then( (texture) {
       //texture = spriteSheet
       List<List<TextureRegion>> regions = TextureRegion.splitted(texture, 64, 64);
